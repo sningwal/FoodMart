@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="@color/customPrimaryDark">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_dp"
+        />
+    <TextView
+        android:id="@+id/textViewcurrentUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sandeep"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/textViewMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9516586529"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:textSize="18sp"/>
+</LinearLayout>
